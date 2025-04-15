@@ -5,14 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45f471ad-c5e2-45e8-b091-1108a5ea7495" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/applications/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/companies/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/internships/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/students/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/applications/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/companies/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/internships/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/students/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/2e80c80d-91f5-4124-8203-bed028004b17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2e80c80d-91f5-4124-8203-bed028004b17.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/2e80c80d-91f5-4124-8203-bed028004b17/storage_v2/_src_/database/internships.5dH1hA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2e80c80d-91f5-4124-8203-bed028004b17/storage_v2/_src_/database/internships.5dH1hA/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternshipManagementSystem/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/InternshipManagementSystem/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/applications/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/applications/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/companies/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/companies/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/internships/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/internships/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/students/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/students/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +33,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -57,7 +65,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "migrations",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/home/mosa/PycharmProjects/InternshipManagementSystem/apps/students",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -66,6 +74,11 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -120,7 +133,9 @@
       <updated>1744634799534</updated>
       <workItem from="1744634801834" duration="1277000" />
       <workItem from="1744697198980" duration="5987000" />
-      <workItem from="1744704289034" duration="10338000" />
+      <workItem from="1744704289034" duration="10690000" />
+      <workItem from="1744717380803" duration="3979000" />
+      <workItem from="1744723053097" duration="6305000" />
     </task>
     <servers />
   </component>

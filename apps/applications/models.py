@@ -1,8 +1,8 @@
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 
-from apps.students.models import Student
 from apps.internships.models import Internship
+from apps.students.models import Student
 
 
 class Application(models.Model):

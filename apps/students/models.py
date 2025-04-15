@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class Student(models.Model):
     idnp = models.CharField(primary_key=True, max_length=13)
     first_name = models.CharField(null=False)
