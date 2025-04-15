@@ -11,8 +11,8 @@ class Application(models.Model):
         REJECTED = 'rej', _('Rejected')
         IN_PROGRESS = 'prg', _('In progress')
 
-    student_idnp = models.ForeignKey(Student, on_delete=models.CASCADE)
-    internship_id = models.ForeignKey(Internship, on_delete=models.CASCADE)
+    student = models.ForeignKey(Student, on_delete=models.CASCADE)
+    internship = models.ForeignKey(Internship, on_delete=models.CASCADE)
     status = models.CharField(max_length=3, choices=Status.choices, default=Status.IN_PROGRESS)
 
     def get_status(self) -> Status:

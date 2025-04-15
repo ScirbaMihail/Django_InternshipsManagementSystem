@@ -20,7 +20,7 @@ class Internship(models.Model):
     stack = models.CharField(null=False, choices=Stack.choices, default=Stack.PYTHON)
     start_date = models.DateField(null=False)
     end_date = models.DateField(null=False)
-    company_id = models.ForeignKey(Company, on_delete=models.CASCADE)
+    company = models.ForeignKey(Company, on_delete=models.CASCADE)
 
     def get_stack(self) -> Stack:
         return self.Stack(self.stack)

@@ -5,23 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45f471ad-c5e2-45e8-b091-1108a5ea7495" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/InternshipManagementSystem.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/applications/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/applications/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/companies/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/companies/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/internships/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/internships/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/students/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/students/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternshipManagementSystem/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/InternshipManagementSystem/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/applications/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/applications/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/internships/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/internships/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +48,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "migrations",
+    "last_opened_file_path": "/home/mosa/PycharmProjects/InternshipManagementSystem/apps/students",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -70,6 +58,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apps/students" />
+      <recent name="$PROJECT_DIR$/apps/internships" />
+      <recent name="$PROJECT_DIR$/apps/companies" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="InternshipManagementSystem" type="Python.DjangoServer" factoryName="Django server">
       <module name="InternshipManagementSystem" />
@@ -115,7 +110,7 @@
       <updated>1744634799534</updated>
       <workItem from="1744634801834" duration="1277000" />
       <workItem from="1744697198980" duration="5987000" />
-      <workItem from="1744704289034" duration="4989000" />
+      <workItem from="1744704289034" duration="7053000" />
     </task>
     <servers />
   </component>

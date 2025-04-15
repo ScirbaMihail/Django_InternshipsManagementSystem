@@ -1,0 +1,7 @@
+1. Initialized Django application in PyCharm
+2. Created db schema in dbdiagram.io
+3. Added unfold application, configured settings.py for it
+4. Created apps/table_name for each table from schema
+5. Created models in each app
+6. Initialized git repo
+7. Modified models by removed _id suffix in each foreign key constraint
