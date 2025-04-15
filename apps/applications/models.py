@@ -11,7 +11,7 @@ class Application(models.Model):
         REJECTED = 'rej', _('Rejected')
         IN_PROGRESS = 'prg', _('In progress')
 
-    student = models.ForeignKey(Student, on_delete=models.CASCADE)
+    student = models.ForeignKey(Student, on_delete=models.CASCADE, db_column='student_idnp')
     internship = models.ForeignKey(Internship, on_delete=models.CASCADE)
     status = models.CharField(max_length=3, choices=Status.choices, default=Status.IN_PROGRESS)
 
@@ -21,7 +21,7 @@ class Application(models.Model):
     class Meta:
         constraints = [
             models.UniqueConstraint(
-                fields=['student_idnp', 'internship_id'],
+                fields=['student', 'internship'],
                 name='unique_student_internship'
             )
         ]

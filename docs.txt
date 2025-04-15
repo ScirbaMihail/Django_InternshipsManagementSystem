@@ -5,3 +5,4 @@
 5. Created models in each app
 6. Initialized git repo
 7. Modified models by removed _id suffix in each foreign key constraint
+8. Created migrations for each entity from db schema
