@@ -85,15 +85,15 @@ WSGI_APPLICATION = 'InternshipManagementSystem.wsgi.application'
 
 DATABASES = {
     'default': {
-         'ENGINE': 'django.db.backends.{}'.format(
-             os.getenv('DATABASE_ENGINE', 'sqlite3')
-         ),
-         'NAME': os.getenv('DATABASE_NAME', '1010'),
-         'USER': os.getenv('DATABASE_USERNAME', 'postgres'),
-         'PASSWORD': os.getenv('DATABASE_PASSWORD', '1010'),
-         'HOST': os.getenv('DATABASE_HOST', '0.0.0.0'),
-         'PORT': os.getenv('DATABASE_PORT', 5432),
-     }
+        'ENGINE': 'django.db.backends.{}'.format(
+            os.getenv('DATABASE_ENGINE', 'sqlite3')
+        ),
+        'NAME': os.getenv('DATABASE_NAME', 'internships'),
+        'USER': os.getenv('DATABASE_USERNAME', 'postgres'),
+        'PASSWORD': os.getenv('DATABASE_PASSWORD', '1010'),
+        'HOST': os.getenv('DATABASE_HOST', '0.0.0.0'),
+        'PORT': os.getenv('DATABASE_PORT', 5432),
+    }
 }
 
 # Password validation
@@ -129,7 +129,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
 STATIC_URL = 'static/'
-
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
