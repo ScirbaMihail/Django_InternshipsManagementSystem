@@ -15,27 +15,18 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
-"""Default key config"""
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-*2=@e*=+8*wh&py1_m!xk&4ks!k-l*u1e!p+8kh0fcs_mbrojw'
+# """Default key config"""
+# SECRET_KEY = 'django-insecure-*2=@e*=+8*wh&py1_m!xk&4ks!k-l*u1e!p+8kh0fcs_mbrojw'
+# DEBUG = True
+# ALLOWED_HOSTS = []
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = []
-
-# """Docker key config"""
-# SECRET_KEY = os.environ.get("SECRET_KEY")
-#
-# DEBUG = bool(os.environ.get("DEBUG", default=0))
-#
-# # 'DJANGO_ALLOWED_HOSTS' should be a single string of hosts with a space between each.
-# # For example: 'DJANGO_ALLOWED_HOSTS=localhost 127.0.0.1 [::1]'
-# ALLOWED_HOSTS = os.environ.get("DJANGO_ALLOWED_HOSTS").split(" ")
+"""Docker key config"""
+SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY")
+DEBUG = bool(os.environ.get("DEBUG", default=1))
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -89,21 +80,21 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'InternshipManagementSystem.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'internships',
-        'USER': 'postgres',
-        'PASSWORD': '1010',
-        'HOST': 'localhost',
-        'PORT': '5432'
+        'ENGINE': 'django.db.backends.{}'.format(
+            os.getenv('DATABASE_ENGINE', 'sqlite3')
+        ),
+        'NAME': os.getenv('DATABASE_NAME', 'internships'),
+        'USER': os.getenv('DATABASE_USERNAME', 'postgres'),
+        'PASSWORD': os.getenv('DATABASE_PASSWORD', '1010'),
+        'HOST': os.getenv('DATABASE_HOST', '0.0.0.0'),
+        'PORT': os.getenv('DATABASE_PORT', 5432),
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
@@ -123,7 +114,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/5.2/topics/i18n/
 
@@ -135,12 +125,10 @@ USE_I18N = True
 
 USE_TZ = True
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
 STATIC_URL = 'static/'
-
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
