@@ -7,3 +7,8 @@
 7. Modified models by removed _id suffix in each foreign key constraint
 8. Created migrations for each entity from db schema
 9. Created unfold user and added models to admin panel
+10. Installed and configured docker and docker engine
+11. Created dockerfile and docker compose in root, added requirements.txt. Deployed application with database on
+    docker image. Now running the application only with 'docker compose up --build'
+12. Implemented DRF in project
+13. Added read-only api endpoint for companies via DRF
