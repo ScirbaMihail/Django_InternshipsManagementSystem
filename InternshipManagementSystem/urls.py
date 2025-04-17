@@ -17,13 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-from apps.home.views import home
-
 urlpatterns = [
     path('api/', include('apps.companies.urls')),
     path('api/', include('apps.internships.urls')),
     path('admin/', admin.site.urls),
-
-    path('', home, name='home'),
 ]
 # + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

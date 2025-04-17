@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45f471ad-c5e2-45e8-b091-1108a5ea7495" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/home/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/home/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/internships/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/internships/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/internships/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/InternshipManagementSystem/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/InternshipManagementSystem/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/internships/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/internships/admin.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +26,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Dockerfile" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -57,7 +60,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "endpoints",
     "last_opened_file_path": "/home/mosa/PycharmProjects/InternshipManagementSystem/apps/students",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -80,8 +83,6 @@
       <recent name="$PROJECT_DIR$/apps/companies" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/templates" />
-      <recent name="$PROJECT_DIR$/apps/home/templates" />
       <recent name="$PROJECT_DIR$/apps/companies" />
       <recent name="$PROJECT_DIR$/api" />
     </key>
