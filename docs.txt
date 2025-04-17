@@ -12,3 +12,4 @@
     docker image. Now running the application only with 'docker compose up --build'
 12. Implemented DRF in project
 13. Added read-only api endpoint for companies via DRF
+14. Added read-only api endpoint for internships via DRF
