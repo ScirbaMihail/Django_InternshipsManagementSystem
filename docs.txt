@@ -15,3 +15,5 @@
 14. Added read-only api endpoint for companies via DRF
 15. Added read-only api endpoint for internships via DRF
 16. Merged from endpoints branch into main
+17. Implemented swagger for api documentation
+18. Merge from swagger branch into main
