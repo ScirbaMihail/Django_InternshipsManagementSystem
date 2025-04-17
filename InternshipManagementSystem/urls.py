@@ -21,17 +21,14 @@ from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
 from apps.home.views import home
 
 urlpatterns = [
-    # endpoints api
-    path('api/', include('apps.companies.urls')),
-    path('api/', include('apps.internships.urls')),
-
-    # endpoints api docs
-    path('api/schema/', SpectacularAPIView.as_view(), name='schema'),
-    path('api/docs/', SpectacularSwaggerView.as_view(url_name='schema'), name='swagger-ui'),
-
+    path('api/', include([
+        path('', include('apps.companies.urls')),
+        path('', include('apps.internships.urls')),
+        path('schema/', SpectacularAPIView.as_view(), name='schema'),
+        path('docs/', SpectacularSwaggerView.as_view(url_name='schema'), name='swagger-ui'),
+    ])),
     # admin
     path('admin/', admin.site.urls),
-
     # home
     path('', home, name='home'),
 ]
