@@ -48,7 +48,8 @@ INSTALLED_APPS = [
     'apps.applications',
     'apps.companies',
     'apps.internships',
-    'apps.students'
+    'apps.students',
+    'drf_spectacular',
 ]
 
 MIDDLEWARE = [
@@ -114,10 +115,23 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-
 REST_FRAMEWORK = {
+    #Pagination
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
-    'PAGE_SIZE': 10
+    'PAGE_SIZE': 10,
+
+    #Spectacular (swagger)
+    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.IsAuthenticatedOrReadOnly',
+    ],
+}
+
+SPECTACULAR_SETTINGS = {
+    'TITLE': 'Companies API',
+    'DESCRIPTION': 'API for managing companies',
+    'VERSION': '1.0.0',
+    'SERVE_INCLUDE_SCHEMA': False,
 }
 
 # Internationalization
