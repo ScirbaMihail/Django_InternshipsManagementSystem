@@ -17,3 +17,6 @@
 16. Merged from endpoints branch into main
 17. Implemented swagger for api documentation
 18. Merge from swagger branch into main
+19. Created api endpoint for POST Application (if student does not exist, api will create a new one)
+20. Fixed a bug with creating application for existing student (if student exist, it showed threw error on unique
+    filed already exists). I removed validators in StudentSerializer
