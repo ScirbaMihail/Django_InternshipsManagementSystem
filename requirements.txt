@@ -5,4 +5,5 @@ psycopg2-binary==2.9.10
 sqlparse==0.5.3
 gunicorn==23.0.0
 djangorestframework~=3.16.0
+djangorestframework-simplejwt
 drf-spectacular~=0.28.0
