@@ -1,23 +1,28 @@
-1. Initialized Django application in PyCharm
-2. Created db schema in dbdiagram.io
-3. Added unfold application, configured settings.py for it
-4. Created apps/table_name for each table from schema
-5. Created models in each app
-6. Initialized git repo
-7. Modified models by removed _id suffix in each foreign key constraint
-8. Created migrations for each entity from db schema
-9. Created unfold user and added models to admin panel
-10. Installed and configured docker and docker engine
-11. Created dockerfile and docker compose in root, added requirements.txt. Deployed application with database on
+1. MAIN: Initialized Django application in PyCharm
+2. MAIN: Created db schema in dbdiagram.io
+3. MAIN: Added unfold application, configured settings.py for it
+4. MIGRATIONS: Created apps/table_name for each table from schema
+5. MIGRATIONS: Created models in each app
+6. MIGRATIONS: Initialized git repo
+7. MIGRATIONS: Modified models by removed _id suffix in each foreign key constraint
+8. MIGRATIONS: Created migrations for each entity from db schema
+9. MIGRATIONS: Created unfold user and added models to admin panel
+10: MAIN: Merged from MIGRATIONS
+11. DOCKER: Installed and configured docker and docker engine
+12. DOCKER: Created dockerfile and docker compose in root, added requirements.txt. Deployed application with database on
     docker image. Now running the application only with 'docker compose up --build'
-12. Merge from docker branch into main
-13. Implemented DRF in project
-14. Added read-only api endpoint for companies via DRF
-15. Added read-only api endpoint for internships via DRF
-16. Merged from endpoints branch into main
-17. Implemented swagger for api documentation
-18. Merge from swagger branch into main
-19. Created api endpoint for POST Application (if student does not exist, api will create a new one)
-20. Fixed a bug with creating application for existing student (if student exist, it showed threw error on unique
-    filed already exists). I removed validators in StudentSerializer
-21. Implements custom __str__ for each model
+13. MAIN: Merged from DOCKER
+14. ENDPOINTS: Implemented DRF in project
+15. ENDPOINTS: Added read-only api endpoint for companies via DRF
+16. ENDPOINTS: Added read-only api endpoint for internships via DRF
+17. MAIN: Merged from ENDPOINTS
+18. SWAGGER: Implemented swagger for api documentation
+19. MAIN: Merged from SWAGGER
+20. ENDPOINTS: Created api endpoint for POST Application (if student does not exist, api will create a new one)
+21. ENDPOINTS: Fixed a bug with creating application for existing student (if student exist, it showed threw error on
+    unique filed already exists). I removed validators in StudentSerializer
+22. ENDPOINTS: Implements custom __str__ for each model
+23. MAIN: Merged from ENDPOINTS
+24. JWT_AUTH: Implemented jwt authentication
+25. JWT_AUTH: Working via browser with routes /api/token/ and /api/docs/, but for commodity installed postman on laptop
+26. MAIN: Merged from JWT_AUTH

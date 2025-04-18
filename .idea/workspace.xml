@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45f471ad-c5e2-45e8-b091-1108a5ea7495" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InternshipManagementSystem/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/InternshipManagementSystem/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InternshipManagementSystem/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/InternshipManagementSystem/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/applications/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/applications/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/applications/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/applications/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,18 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ScirbaMihail"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ScirbaMihail&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ScirbaMihail/Django_InternshipsManagementSystem.git",
-    "accountId": "332abda6-8f6e-4877-81e8-82be67605e9c"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ScirbaMihail/Django_InternshipsManagementSystem.git&quot;,
+    &quot;accountId&quot;: &quot;332abda6-8f6e-4877-81e8-82be67605e9c&quot;
   }
-}]]></component>
+}</component>
   <component name="JsbtTreeLayoutManager">
     <layout place="tools.popupGrunt">
       <scroll-view-position x="0" y="0" />
@@ -70,7 +65,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "jwt__auth",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/home/mosa/PycharmProjects/InternshipManagementSystem/apps/students",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
