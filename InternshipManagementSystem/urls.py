@@ -31,9 +31,11 @@ urlpatterns = [
         path('', include('apps.companies.urls')),
         path('', include('apps.internships.urls')),
         path('', include('apps.applications.urls')),
+
         # documentation
         path('schema/', SpectacularAPIView.as_view(), name='schema'),
         path('docs/', SpectacularSwaggerView.as_view(url_name='schema'), name='swagger-ui'),
+
         # jwt auth
         path('token/', include([
             path('', TokenObtainPairView.as_view(), name='token_obtain_pair'),
@@ -41,8 +43,10 @@ urlpatterns = [
             path('/verify/', TokenVerifyView.as_view(), name='token_verify'),
         ]))
     ])),
+
     # admin
     path('admin/', admin.site.urls),
+
     # home
     path('', home, name='home'),
 ]

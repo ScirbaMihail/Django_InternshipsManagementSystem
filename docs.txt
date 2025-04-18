@@ -26,3 +26,6 @@
 24. JWT_AUTH: Implemented jwt authentication
 25. JWT_AUTH: Working via browser with routes /api/token/ and /api/docs/, but for commodity installed postman on laptop
 26. MAIN: Merged from JWT_AUTH
+27. REDIS: Installed redis in project
+28. REDIS: Implemented list companies within redis permanently, and invalidated cache on create, update and delete
+29. REDIS: Added messages into logs on any companies caching actions
