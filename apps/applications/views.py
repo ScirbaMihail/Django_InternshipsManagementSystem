@@ -5,6 +5,6 @@ from apps.applications.serializers import ApplicationSerializer
 
 
 class ApplicationViewSet(ModelViewSet):
-    queryset = Application
+    queryset = Application.objects.all()
     serializer_class = ApplicationSerializer
     http_method_names = ['get', 'head', 'post']

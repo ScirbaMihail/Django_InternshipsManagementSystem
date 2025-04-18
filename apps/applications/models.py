@@ -26,3 +26,6 @@ class Application(models.Model):
             )
         ]
         db_table = 'applications'
+
+    def __str__(self):
+        return f'{self.student} at {self.internship}, {self.status}'
