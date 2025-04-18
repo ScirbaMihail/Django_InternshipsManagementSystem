@@ -27,3 +27,6 @@ class Internship(models.Model):
 
     class Meta:
         db_table = 'internships'
+
+    def __str__(self):
+        return f'{self.name} at {self.company}, {self.start_date} to {self.end_date}'
