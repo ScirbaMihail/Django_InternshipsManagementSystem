@@ -29,3 +29,4 @@
 27. REDIS: Installed redis in project
 28. REDIS: Implemented list companies within redis permanently, and invalidated cache on create, update and delete
 29. REDIS: Added messages into logs on any companies caching actions
+30. MAIN: Merged from redis
