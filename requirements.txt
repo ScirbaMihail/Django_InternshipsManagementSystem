@@ -7,3 +7,5 @@ gunicorn==23.0.0
 djangorestframework~=3.16.0
 djangorestframework-simplejwt
 drf-spectacular~=0.28.0
+django-redis==5.4.0
+redis==5.0.1

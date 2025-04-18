@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45f471ad-c5e2-45e8-b091-1108a5ea7495" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/docs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/InternshipManagementSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/InternshipManagementSystem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternshipManagementSystem/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/InternshipManagementSystem/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,19 +66,20 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
     "Django Server.InternshipManagementSystem.executor": "Run",
+    "Docker.Unnamed.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/mosa/PycharmProjects/InternshipManagementSystem/apps/students",
+    "git-widget-placeholder": "redis",
+    "last_opened_file_path": "/home/mosa/Projects/InternshipsManagementSystem/compose.yaml",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -106,7 +113,7 @@
         <env name="DJANGO_SETTINGS_MODULE" value="InternshipManagementSystem.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.12 (InternshipsManagementSystem)" />
+      <option name="SDK_NAME" value="Python 3.12 virtualenv at ~/Projects/InternshipsManagementSystem/.venv" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -150,6 +157,9 @@
       <workItem from="1744957381331" duration="883000" />
       <workItem from="1744958290242" duration="109000" />
       <workItem from="1744958415042" duration="7659000" />
+      <workItem from="1744980665249" duration="129000" />
+      <workItem from="1744981336861" duration="46000" />
+      <workItem from="1744981530638" duration="808000" />
     </task>
     <servers />
   </component>
