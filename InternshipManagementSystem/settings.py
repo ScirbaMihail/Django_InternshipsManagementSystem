@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # ALLOWED_HOSTS = []
 
 """Docker key config"""
-SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY")
+SECRET_KEY = [os.environ.get("DJANGO_SECRET_KEY"), 'fadsjioooooooooooooooooooooooooooooooooooooooo']
 DEBUG = bool(os.environ.get("DEBUG", default=1))
 ALLOWED_HOSTS = ['*']
 
@@ -147,7 +147,7 @@ SIMPLE_JWT = {
     'UPDATE_LAST_LOGIN': False,
 
     'ALGORITHM': 'HS256',
-    'SIGNING_KEY': SECRET_KEY,  # Uses your Django secret key
+    'SIGNING_KEY': os.environ.get("DJANGO_SECRET_KEY"),  # Uses your Django secret key
     'VERIFYING_KEY': None,
     'AUDIENCE': None,
     'ISSUER': None,

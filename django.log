@@ -9,3 +9,7 @@ INFO 2025-04-18 14:22:24,622 views Company ID 3 fetched from Redis cache
 INFO 2025-04-18 14:22:36,526 views Company list request started
 INFO 2025-04-18 14:22:36,527 views Company list fetched from Redis cache
 INFO 2025-04-18 14:23:27,311 views Signal: Company ID 6 deleted, cache invalidated
+INFO 2025-04-22 08:30:16,514 views Signal: Company ID 4 updated, cache invalidated
+INFO 2025-04-22 08:30:38,057 views Signal: Company ID 3 updated, cache invalidated
+INFO 2025-04-22 08:30:49,617 views Signal: Company ID 2 updated, cache invalidated
+INFO 2025-04-22 08:31:06,617 views Signal: Company ID 1 updated, cache invalidated
