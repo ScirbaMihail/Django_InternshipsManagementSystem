@@ -33,3 +33,4 @@
 31. EMAIL: Got some issues with python interpreter and fixed them
 32. EMAIL: Implemented email notifications both to the company and student email addresses on update application
     status to APPROVED or REJECTED
+33. MAIN: Merged from EMAIL
