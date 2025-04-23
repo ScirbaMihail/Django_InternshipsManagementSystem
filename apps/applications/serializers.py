@@ -24,3 +24,8 @@ class ApplicationSerializer(serializers.ModelSerializer):
             **validated_data
         )
         return application
+
+    def update(self, instance, validated_data):
+        validated_data.pop('student', None)
+        super().update(instance, validated_data)
+        return instance

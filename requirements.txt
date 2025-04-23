@@ -9,3 +9,5 @@ djangorestframework-simplejwt
 drf-spectacular~=0.28.0
 django-redis==5.4.0
 redis==5.0.1
+celery[redis]
+django-celery-results

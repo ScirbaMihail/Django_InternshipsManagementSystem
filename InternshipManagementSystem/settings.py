@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # ALLOWED_HOSTS = []
 
 """Docker key config"""
-SECRET_KEY = [os.environ.get("DJANGO_SECRET_KEY"), 'fadsjioooooooooooooooooooooooooooooooooooooooo']
+SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY")
 DEBUG = bool(os.environ.get("DEBUG", default=1))
 ALLOWED_HOSTS = ['*']
 
@@ -219,10 +219,14 @@ LOGGING = {
     },
 }
 
+# Email Config (Example with Gmail SMTP)
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_USE_TLS = True
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'mihailscirba@gmail.com'
+EMAIL_HOST_PASSWORD = 'eqxz cggp upnj eiiz'
 
-# Optional: Set session engine to use cache
-SESSION_ENGINE = "django.contrib.sessions.backends.cache"
-SESSION_CACHE_ALIAS = "default"
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.2/topics/i18n/

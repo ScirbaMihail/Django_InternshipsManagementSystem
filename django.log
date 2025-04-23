@@ -13,3 +13,8 @@ INFO 2025-04-22 08:30:16,514 views Signal: Company ID 4 updated, cache invalidat
 INFO 2025-04-22 08:30:38,057 views Signal: Company ID 3 updated, cache invalidated
 INFO 2025-04-22 08:30:49,617 views Signal: Company ID 2 updated, cache invalidated
 INFO 2025-04-22 08:31:06,617 views Signal: Company ID 1 updated, cache invalidated
+INFO 2025-04-22 10:55:50,499 views Signal: Company ID 1 created, cache invalidated
+INFO 2025-04-22 14:42:28,292 views Signal: Company ID 1 created, cache invalidated
+INFO 2025-04-23 06:21:47,932 views Signal: Company ID 2 created, cache invalidated
+INFO 2025-04-23 06:22:04,973 views Signal: Company ID 3 created, cache invalidated
+INFO 2025-04-23 06:22:14,096 views Signal: Company ID 4 created, cache invalidated
