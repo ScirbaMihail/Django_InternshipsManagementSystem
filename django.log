@@ -23,3 +23,4 @@ INFO 2025-06-17 14:23:12,054 views Company list request started
 INFO 2025-06-17 14:23:12,067 views Company list fetched from database and cached
 INFO 2025-06-17 14:23:35,331 views Company list request started
 INFO 2025-06-17 14:23:35,332 views Company list fetched from Redis cache
+INFO 2025-06-18 12:04:43,889 views Signal: Company ID 5 updated, cache invalidated

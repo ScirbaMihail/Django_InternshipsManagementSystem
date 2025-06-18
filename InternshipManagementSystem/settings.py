@@ -275,7 +275,7 @@ UNFOLD = {
                 ]
             },
             {
-                'title': 'Items',
+                'title': 'Companies and internships',
                 'items': [
                     {
                         'title': 'Companies',
@@ -286,6 +286,11 @@ UNFOLD = {
                         'title': 'Internships',
                         'icon': 'school',
                         'link': reverse_lazy('admin:internships_internship_changelist')
+                    },
+                    {
+                        'title': 'Applications',
+                        'icon': 'tab_group',
+                        'link': reverse_lazy('admin:applications_application_changelist')
                     }
                 ],
             }
