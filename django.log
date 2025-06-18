@@ -18,3 +18,8 @@ INFO 2025-04-22 14:42:28,292 views Signal: Company ID 1 created, cache invalidat
 INFO 2025-04-23 06:21:47,932 views Signal: Company ID 2 created, cache invalidated
 INFO 2025-04-23 06:22:04,973 views Signal: Company ID 3 created, cache invalidated
 INFO 2025-04-23 06:22:14,096 views Signal: Company ID 4 created, cache invalidated
+INFO 2025-06-17 14:20:26,918 views Signal: Company ID 5 created, cache invalidated
+INFO 2025-06-17 14:23:12,054 views Company list request started
+INFO 2025-06-17 14:23:12,067 views Company list fetched from database and cached
+INFO 2025-06-17 14:23:35,331 views Company list request started
+INFO 2025-06-17 14:23:35,332 views Company list fetched from Redis cache

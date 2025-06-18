@@ -33,9 +33,6 @@ class ApplicationViewSet(ModelViewSet):
                 internship_status=current_status,
             )
 
-# eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ1MzMyNjU3LCJpYXQiOjE3NDUzMjkwNTcsImp0aSI6ImRkNjIzZDliMWU2NjQ0ZjA5MTgyNDg5ODYzMjY2N2QxIiwidXNlcl9pZCI6MX0.Cq5fK4T7sIcLGf-LC6fXtf7VCk3EBBgeKAOTjts4PDs
-
-
 class ProtectedView(APIView):
     permission_classes = [IsAuthenticated]
 

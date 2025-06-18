@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 import os
 from pathlib import Path
 
+from django.urls import reverse_lazy
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -24,8 +26,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # ALLOWED_HOSTS = []
 
 """Docker key config"""
-SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY")
-DEBUG = bool(os.environ.get("DEBUG", default=1))
+SECRET_KEY = (os.environ.get("DJANGO_SECRET_KEY") or "g;fsghskfjvhoihoibvoi2h43t43g")
+DEBUG = bool(os.environ.get("DEBUG", default=0))
 ALLOWED_HOSTS = ['*']
 
 # Application definition
@@ -247,3 +249,46 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+UNFOLD = {
+    'SIDEBAR': {
+        'navigation': [
+            {
+                'title': 'User management',
+                'items': [
+                    {
+                        'title': 'users',
+                        'icon': 'person',
+                        'link': reverse_lazy('admin:auth_user_changelist')
+                    },
+                    {
+                        'title': 'Groups',
+                        'icon': 'group',
+                        'link': reverse_lazy('admin:auth_group_changelist')
+                    },
+                    {
+                        'title': 'Students',
+                        'icon': 'person_book',
+                        'link': reverse_lazy('admin:students_student_changelist')
+                    }
+                ]
+            },
+            {
+                'title': 'Items',
+                'items': [
+                    {
+                        'title': 'Companies',
+                        'icon': 'domain',
+                        'link': reverse_lazy('admin:companies_company_changelist')
+                    },
+                    {
+                        'title': 'Internships',
+                        'icon': 'school',
+                        'link': reverse_lazy('admin:internships_internship_changelist')
+                    }
+                ],
+            }
+        ]
+    }
+}
